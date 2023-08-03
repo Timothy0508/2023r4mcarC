@@ -53,9 +53,9 @@ function last () {
         LeftTurn()
     }
     Go()
-    basic.pause(3000)
+    basic.pause(5000)
     STOP()
-    basic.pause(100000)
+    basic.pause(9999999999999999999999999999999)
 }
 input.onButtonPressed(Button.A, function () {
     control2 += 1
